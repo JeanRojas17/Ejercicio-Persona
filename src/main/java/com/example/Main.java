@@ -8,8 +8,10 @@ public class Main {
 
         System.out.println("Información de la persona 1:");
         persona1.imprimirInformacion();
+        System.out.println("Edad: " +persona1.calcularEdad()+ " años");
 
         System.out.println("\nInformación de la persona 2:");
         persona2.imprimirInformacion();
+        System.out.println("Edad: " +persona2.calcularEdad()+ " años");
     }
 }

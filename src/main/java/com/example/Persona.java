@@ -20,4 +20,9 @@ public class Persona {
         System.out.println("Documento de Identidad: " + documentoIdentidad);
         System.out.println("Año de Nacimiento: " + añoNacimiento);
     }
+
+    public int calcularEdad() {
+        int añoActual = 2026;
+        return añoActual - añoNacimiento;
+    }
 }
