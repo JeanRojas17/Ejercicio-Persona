@@ -5,12 +5,12 @@
 ```mermaid
 classDiagram
     class Persona {
-        String nombre
-        String apellidos
-        String numeroDocumentoIdentidad
-        int anoNacimiento
+        - nombre: String
+        - apellidos: String 
+        - numeroDocumentoIdentidad: String 
+        - anoNacimiento: int 
         Persona(String nombre, String apellidos, String numeroDocumentoIdentidad, int anoNacimiento)
-        void imprimir()
+        + imprimirInformacion(): void
     }
 
     class p1["p1: Persona"] {
