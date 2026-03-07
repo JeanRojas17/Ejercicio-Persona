@@ -1,4 +1,5 @@
 package com.example;
+import java.time.Year;
 
 public class Persona {
     
@@ -22,7 +23,7 @@ public class Persona {
     }
 
     public int calcularEdad() {
-        int añoActual = 2026;
+        int añoActual = Year.now().getValue();
         return añoActual - añoNacimiento;
     }
 }
