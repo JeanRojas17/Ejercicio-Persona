@@ -3,8 +3,8 @@ package com.example;
 public class Main {
     public static void main(String[] args) {
         
-        Persona persona1 = new Persona("Pedro", "Pérez", "1053121010", 1998);
-        Persona persona2 = new Persona("Luis", "León", "1053223344", 2001);
+        Persona persona1 = new Persona("Pedro", "Pérez", "1053121010", 1998, "Colombia", 'H');
+        Persona persona2 = new Persona("Luis", "León", "1053223344", 2001, "México", 'H');
 
         System.out.println("Información de la persona 1:");
         persona1.imprimirInformacion();
